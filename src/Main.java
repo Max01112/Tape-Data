@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println(" ");
         System.out.println("Задание 1");
         byte bait = 1;
         short karatkli = 2;
@@ -17,6 +18,7 @@ public class Main {
         System.out.println("Значение переменной sem с типом float равно " + sem);
         System.out.println("Значение переменной shet с типом double равно " + shet);
 
+        System.out.println(" ");
         System.out.println("Задание 2");
         double number1 = 27.12;
         long number2 = 987678965549L;
@@ -27,6 +29,7 @@ public class Main {
         byte number7 = 67;
         System.out.println(number1 + " " + number2 + " " + number3 + " " + number4 + " " + number5 + " " + number6 + " " + number7);
 
+        System.out.println(" ");
         System.out.println("Задание 3");
         byte class1 = 23;
         byte class2 = 27;
@@ -34,13 +37,15 @@ public class Main {
         int otvet = 480/(class1 + class2 + class3);
         System.out.println("На каждого ученика рассчитано " + otvet + " листов бумаги");
 
+        System.out.println(" ");
         System.out.println("Задание 4");
-        int uvlovie = 16;
-        System.out.println("За 20 минут машина произвела " + (uvlovie/2)*20 + " штук бутылок");
-        System.out.println("За сутки машина произвела " + ((uvlovie/2)*60)*24 + " штук бутылок");
-        System.out.println("За три дня машина произвела " + (((uvlovie/2)*60)*24)*3 + " штук бутылок");
-        System.out.println("Если бы в месяце было 30 дней то за это время машина произвела бы " + (((uvlovie/2)*60)*24)*30 + " штук бутылок");
+        byte uslovie = 16;
+        System.out.println("За 20 минут машина произвела " + (uslovie/2)*20 + " штук бутылок");
+        System.out.println("За сутки машина произвела " + ((uslovie/2)*60)*24 + " штук бутылок");
+        System.out.println("За три дня машина произвела " + (((uslovie/2)*60)*24)*3 + " штук бутылок");
+        System.out.println("Если бы в месяце было 30 дней то за это время машина произвела бы " + (((uslovie/2)*60)*24)*30 + " штук бутылок");
 
+        System.out.println(" ");
         System.out.println("Задание 5");
         int vsegoBanok = 120;
         int belayaKraskaNaKabinet = 2;
@@ -50,6 +55,7 @@ public class Main {
         int vsegoKorichnevoiKraski = vsegoKlassov*KorichnevayaKraskaNaKabinet;
         System.out.println("В школе, где " + vsegoKlassov +  " классов, нужно " + vsegoBeloyKraski + " банок белой краски и " + vsegoKorichnevoiKraski + " банок коричневой краски");
 
+        System.out.println(" ");
         System.out.println("Задание 6");
         byte bananaCount = 5;
         short milkCount = 200;
@@ -63,6 +69,7 @@ public class Main {
         int kollichestvoKGramm = kollichestvoGramm/1000;
         System.out.println("Всего грамм в данном завтраке: " + kollichestvoGramm + " грамм, что в килограммах состовляет: " + kollichestvoKGramm + "килограмм");
 
+        System.out.println(" ");
         System.out.println("Задание 7");
         byte nujnoSbrositKG = 7;
         short poteryaVesaMin = 250;
@@ -75,6 +82,7 @@ public class Main {
         System.out.println("Если спортсмен будет серять 500 грамм каждый день ему потребуется: " + poteryaVesa500);
         System.out.println("В среднем ему потребуется дней: " + nujnoSbrositGramm/sredneeKollchestvo);
 
+        System.out.println(" ");
         System.out.println("Задание 8");
         int ZarplataMasha = 67760;
         int ZarplataDenis = 83690;
@@ -82,7 +90,5 @@ public class Main {
         System.out.println(  "Маша теперь получает " + (int)(ZarplataMasha*1.1) + " рублей. Годовой доход вырос на " + (int)((ZarplataMasha*1.1)-ZarplataMasha) + " рублей");
         System.out.println("Денис теперь получает " + (int)(ZarplataDenis*1.1) + " рублей. Годовой доход вырос на " + (int)((ZarplataDenis*1.1)-ZarplataDenis) + " рублей");
         System.out.println("Кристина теперь получает " + (int)(ZarplataKristina*1.1) + " рублей. Годовой доход вырос на " + (int)((ZarplataKristina*1.1)-ZarplataKristina) + " рублей");
-
-
     }
     }
