@@ -64,6 +64,25 @@ public class Main {
         System.out.println("Всего грамм в данном завтраке: " + kollichestvoGramm + " грамм, что в килограммах состовляет: " + kollichestvoKGramm + "килограмм");
 
         System.out.println("Задание 7");
+        byte nujnoSbrositKG = 7;
+        short poteryaVesaMin = 250;
+        short poteryaVesaMax = 500;
+        int nujnoSbrositGramm = nujnoSbrositKG*1000;
+        int poteryaVesa250 =  nujnoSbrositGramm/poteryaVesaMin;
+        int poteryaVesa500 = nujnoSbrositGramm/poteryaVesaMax;
+        int sredneeKollchestvo = (poteryaVesaMin+poteryaVesaMax)/2;
+        System.out.println("Если спортсмен будет серять 250 грамм каждый день ему потребуется: " + poteryaVesa250);
+        System.out.println("Если спортсмен будет серять 500 грамм каждый день ему потребуется: " + poteryaVesa500);
+        System.out.println("В среднем ему потребуется дней: " + nujnoSbrositGramm/sredneeKollchestvo);
+
+        System.out.println("Задание 8");
+        int ZarplataMasha = 67760;
+        int ZarplataDenis = 83690;
+        int ZarplataKristina = 76230;
+        System.out.println(  "Маша теперь получает " + (int)(ZarplataMasha*1.1) + " рублей. Годовой доход вырос на " + (int)((ZarplataMasha*1.1)-ZarplataMasha) + " рублей");
+        System.out.println("Денис теперь получает " + (int)(ZarplataDenis*1.1) + " рублей. Годовой доход вырос на " + (int)((ZarplataDenis*1.1)-ZarplataDenis) + " рублей");
+        System.out.println("Кристина теперь получает " + (int)(ZarplataKristina*1.1) + " рублей. Годовой доход вырос на " + (int)((ZarplataKristina*1.1)-ZarplataKristina) + " рублей");
+
 
     }
     }
