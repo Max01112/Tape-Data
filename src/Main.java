@@ -49,10 +49,10 @@ public class Main {
         System.out.println("Задание 5");
         int vsegoBanok = 120;
         int belayaKraskaNaKabinet = 2;
-        int KorichnevayaKraskaNaKabinet = 4;
-        int vsegoKlassov = vsegoBanok/(belayaKraskaNaKabinet+KorichnevayaKraskaNaKabinet);
+        int korichnevayaKraskaNaKabinet = 4;
+        int vsegoKlassov = vsegoBanok/(belayaKraskaNaKabinet+korichnevayaKraskaNaKabinet);
         int vsegoBeloyKraski = vsegoKlassov*belayaKraskaNaKabinet;
-        int vsegoKorichnevoiKraski = vsegoKlassov*KorichnevayaKraskaNaKabinet;
+        int vsegoKorichnevoiKraski = vsegoKlassov*korichnevayaKraskaNaKabinet;
         System.out.println("В школе, где " + vsegoKlassov +  " классов, нужно " + vsegoBeloyKraski + " банок белой краски и " + vsegoKorichnevoiKraski + " банок коричневой краски");
 
         System.out.println(" ");
