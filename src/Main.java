@@ -22,9 +22,9 @@ public class Main {
         System.out.println("Задание 2");
         double number1 = 27.12;
         long number2 = 987678965549L;
-        double number3 = 2.786;
+        float number3 = 2.786F;
         short number4 = 569;
-        int number5 = -159;
+        short number5 = -159;
         int number6 = 27897;
         byte number7 = 67;
         System.out.println(number1 + " " + number2 + " " + number3 + " " + number4 + " " + number5 + " " + number6 + " " + number7);
@@ -65,9 +65,9 @@ public class Main {
         double milk100Ml = 105;
         short iceCreamBriket1Weight = 100;
         short egs1Weight = 70;
-        int kollichestvoGramm = (int) ((bananaCount*banana1Weight)+(iceCreamBriket*iceCreamBriket1Weight)+(egs*egs1Weight)+((milk100Ml/100)*milkCount));
-        int kollichestvoKGramm = kollichestvoGramm/1000;
-        System.out.println("Всего грамм в данном завтраке: " + kollichestvoGramm + " грамм, что в килограммах состовляет: " + kollichestvoKGramm + "килограмм");
+        float kollichestvoGramm = (int) ((bananaCount*banana1Weight)+(iceCreamBriket*iceCreamBriket1Weight)+(egs*egs1Weight)+((milk100Ml/100)*milkCount));
+        float kollichestvoKGramm = kollichestvoGramm/1000;
+        System.out.println("Всего грамм в данном завтраке: " + kollichestvoGramm + " грамм, что в килограммах состовляет: " + kollichestvoKGramm + " килограмм");
 
         System.out.println(" ");
         System.out.println("Задание 7");
@@ -77,18 +77,17 @@ public class Main {
         int nujnoSbrositGramm = nujnoSbrositKg*1000;
         int poteryaVesa250 =  nujnoSbrositGramm/poteryaVesaMin;
         int poteryaVesa500 = nujnoSbrositGramm/poteryaVesaMax;
-        int sredneeKolichestvo = (poteryaVesaMin+poteryaVesaMax)/2;
         System.out.println("Если спортсмен будет серять 250 грамм каждый день ему потребуется: " + poteryaVesa250);
         System.out.println("Если спортсмен будет серять 500 грамм каждый день ему потребуется: " + poteryaVesa500);
-        System.out.println("В среднем ему потребуется дней: " + nujnoSbrositGramm/sredneeKolichestvo);
+        System.out.println("В среднем ему потребуется дней: " + (poteryaVesa250+poteryaVesa500)/2);
 
         System.out.println(" ");
         System.out.println("Задание 8");
         int zarplataMasha = 67760;
         int zarplataDenis = 83690;
         int zarplataKristina = 76230;
-        System.out.println(  "Маша теперь получает " + (int)(zarplataMasha*1.1) + " рублей. Годовой доход вырос на " + (int)((zarplataMasha*1.1)-zarplataMasha) + " рублей");
-        System.out.println("Денис теперь получает " + (int)(zarplataDenis*1.1) + " рублей. Годовой доход вырос на " + (int)((zarplataDenis*1.1)-zarplataDenis) + " рублей");
-        System.out.println("Кристина теперь получает " + (int)(zarplataKristina*1.1) + " рублей. Годовой доход вырос на " + (int)((zarplataKristina*1.1)-zarplataKristina) + " рублей");
+        System.out.println("Маша теперь получает " + (int)(zarplataMasha*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataMasha*1.1)*12)-(zarplataMasha*12)) + " рублей");
+        System.out.println("Денис теперь получает " + (int)(zarplataDenis*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataDenis*1.1)*12)-(zarplataDenis*12)) + " рублей");
+        System.out.println("Кристина теперь получает " + (int)(zarplataKristina*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataKristina*1.1)*12)-(zarplataKristina*12)) + " рублей");
     }
     }
