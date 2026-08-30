@@ -86,8 +86,8 @@ public class Main {
         int zarplataMasha = 67760;
         int zarplataDenis = 83690;
         int zarplataKristina = 76230;
-        System.out.println("Маша теперь получает " + (int)(zarplataMasha*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataMasha*1.1)*12)-(zarplataMasha*12)) + " рублей");
-        System.out.println("Денис теперь получает " + (int)(zarplataDenis*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataDenis*1.1)*12)-(zarplataDenis*12)) + " рублей");
-        System.out.println("Кристина теперь получает " + (int)(zarplataKristina*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataKristina*1.1)*12)-(zarplataKristina*12)) + " рублей");
+        System.out.println("Маша теперь получает: " + (int)(zarplataMasha*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataMasha*1.1)*12)-(zarplataMasha*12)) + " рублей");
+        System.out.println("Денис теперь получает: " + (int)(zarplataDenis*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataDenis*1.1)*12)-(zarplataDenis*12)) + " рублей");
+        System.out.println("Кристина теперь получает: " + (int)(zarplataKristina*1.1) + " рублей. Годовой доход вырос на: " + (int)(((zarplataKristina*1.1)*12)-(zarplataKristina*12)) + " рублей");
     }
     }
